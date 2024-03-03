@@ -97,13 +97,15 @@ GameObject:
   - component: {fileID: 1658724043242609255}
   - component: {fileID: 2329229451490902873}
   - component: {fileID: 6345474862284123520}
+  - component: {fileID: 7550584068067707710}
+  - component: {fileID: 5307638547261210819}
   m_Layer: 0
   m_Name: Player_Gandalf 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &9195447903789963807
 Transform:
   m_ObjectHideFlags: 0
@@ -230,6 +232,32 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &7550584068067707710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5756348772858899003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c0739cc235b36547bc9674f6a179492, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  configPlayer: {fileID: 11400000, guid: e8d6f2031837e604f88c1a2398a09cf0, type: 2}
+--- !u!114 &5307638547261210819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5756348772858899003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c7b0694e0eb27b4a8d912ef09567c1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  configPlayer: {fileID: 11400000, guid: e8d6f2031837e604f88c1a2398a09cf0, type: 2}
 --- !u!1 &8008117722233671959
 GameObject:
   m_ObjectHideFlags: 0

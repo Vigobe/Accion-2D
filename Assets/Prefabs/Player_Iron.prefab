@@ -13,13 +13,15 @@ GameObject:
   - component: {fileID: 8516865952278117842}
   - component: {fileID: 8079694768660944733}
   - component: {fileID: 8842115348340026086}
+  - component: {fileID: 4651319739630529752}
+  - component: {fileID: 6300111202467359739}
   m_Layer: 0
   m_Name: Player_Iron
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6424492667473830555
 Transform:
   m_ObjectHideFlags: 0
@@ -146,6 +148,32 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &4651319739630529752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2513634172951227243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c0739cc235b36547bc9674f6a179492, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  configPlayer: {fileID: 11400000, guid: 4cc7790f560f772408b3cf42d1383c83, type: 2}
+--- !u!114 &6300111202467359739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2513634172951227243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c7b0694e0eb27b4a8d912ef09567c1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  configPlayer: {fileID: 11400000, guid: 4cc7790f560f772408b3cf42d1383c83, type: 2}
 --- !u!1 &2791337961947073635
 GameObject:
   m_ObjectHideFlags: 0

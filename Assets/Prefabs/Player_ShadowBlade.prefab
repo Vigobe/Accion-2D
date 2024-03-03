@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 750444798740873048}
   - component: {fileID: 4658937170235212526}
   - component: {fileID: 5505601328993116694}
+  - component: {fileID: 1491360056265901882}
+  - component: {fileID: 7567389239721564423}
   m_Layer: 0
   m_Name: Player_ShadowBlade
   m_TagString: Untagged
@@ -146,6 +148,32 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1491360056265901882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240166377727482643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c0739cc235b36547bc9674f6a179492, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  configPlayer: {fileID: 11400000, guid: 971a8d6aebc40b5418135b05980dce75, type: 2}
+--- !u!114 &7567389239721564423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240166377727482643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c7b0694e0eb27b4a8d912ef09567c1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  configPlayer: {fileID: 11400000, guid: 971a8d6aebc40b5418135b05980dce75, type: 2}
 --- !u!1 &6854841699718745997
 GameObject:
   m_ObjectHideFlags: 0

@@ -97,13 +97,15 @@ GameObject:
   - component: {fileID: 1754526110476873125}
   - component: {fileID: 2116230331633686892}
   - component: {fileID: 7585445980528676966}
+  - component: {fileID: 5885060190316345951}
+  - component: {fileID: 6907023001450171059}
   m_Layer: 0
   m_Name: Player_Novak
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7537973694858494133
 Transform:
   m_ObjectHideFlags: 0
@@ -230,6 +232,32 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &5885060190316345951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6466659402789230327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c0739cc235b36547bc9674f6a179492, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  configPlayer: {fileID: 11400000, guid: 530265ad34766c54687dce8a46d86af9, type: 2}
+--- !u!114 &6907023001450171059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6466659402789230327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c7b0694e0eb27b4a8d912ef09567c1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  configPlayer: {fileID: 11400000, guid: 530265ad34766c54687dce8a46d86af9, type: 2}
 --- !u!1 &7169802926220169571
 GameObject:
   m_ObjectHideFlags: 0
