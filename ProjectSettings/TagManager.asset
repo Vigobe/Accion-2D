@@ -41,6 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Piso
+    uniqueID: 1157021973
+    locked: 0
+  - name: Pared
+    uniqueID: 3277924203
+    locked: 0
   - name: Player
     uniqueID: 2034301385
+    locked: 0
+  - name: UI
+    uniqueID: 216573083
     locked: 0

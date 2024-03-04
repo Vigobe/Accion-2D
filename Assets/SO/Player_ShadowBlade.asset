@@ -19,7 +19,7 @@ MonoBehaviour:
   SaludMaxima: 5
   Armadura: 0
   ArmaduraMaxima: 5
-  Energia: 100
+  Energia: 115
   EnergiaMaxima: 150
   ChanceCritico: 10
   "Da\xF1oCritico": 50
