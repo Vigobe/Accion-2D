@@ -140,6 +140,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1878317123956887774}
   - component: {fileID: 6069549832059391778}
+  - component: {fileID: 8814685459126760492}
   m_Layer: 0
   m_Name: Puerta_EO
   m_TagString: Untagged
@@ -184,3 +185,15 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &8814685459126760492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8496781055393254802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55a71d39b0819aa49bb482804504ef8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

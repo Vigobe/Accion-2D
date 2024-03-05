@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "RoomPlantillas",menuName = "Dungeon/RoomPlantillas")]
-public class RoomsPlantillas : ScriptableObject
+public class RoomPlantillas : ScriptableObject
 {
     [Header("Plantillas")]
     public Texture2D[] Plantillas;
