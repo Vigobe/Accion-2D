@@ -47,6 +47,9 @@ TagManager:
   - name: Pared
     uniqueID: 3277924203
     locked: 0
+  - name: Prop
+    uniqueID: 3227144801
+    locked: 0
   - name: Player
     uniqueID: 2034301385
     locked: 0
